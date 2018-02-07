@@ -1,0 +1,1 @@
+var app=angular.module("AppModule",[]);function HomeController(){this.title="This is the HomeController"}app.controller("HomeController",HomeController);

@@ -1,0 +1,13 @@
+$main-theme-color: blue;
+
+$default-font-size: 14px;
+
+@mixin standard-heading() {
+    color: $main-theme-color;
+    font-size: $default-font-size;    
+}
+
+
+.home-heading {
+    @include standard-heading();
+}

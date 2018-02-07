@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Angular 1.5 App</title>
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="dist/bundle.js"></script>
+        <link rel="stylesheet" href="dist/styles.css">
+    </head>
+    <body ng-app="AppModule">
+        <h1 class="home-heading">My Angular app</h1>
+        <div ng-controller="HomeController as ctrl">
+            <h1 ng-bind="ctrl.title"></h1>
+        </div>
+    </body>
+</html>
